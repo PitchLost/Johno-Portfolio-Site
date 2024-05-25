@@ -1,0 +1,62 @@
+#projects { 
+    width: 100vw;
+    margin-top: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.project { 
+    height: 15vh;
+    width: 15vw;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-width: thick;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: black;
+    color: black;
+    margin-left: 5VW;
+    margin-right: 5vw;
+}
+.project:hover { 
+    border-color: gray;
+}
+#content-header { 
+    font-size: 13mm;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+h2 { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#contact-header { 
+    font-size: 13mm;
+    font-weight: bold;
+}
+#get-in-touch { 
+    width: 100VW;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.ticket_button { 
+    height: 5vh;
+    margin-top: 10vh;
+    width: 20vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: mediumspringgreen;
+}
+.ticket_button:hover { 
+    background-color: mediumaquamarine;
+}

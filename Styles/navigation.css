@@ -1,0 +1,19 @@
+ul { 
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    background-color: mediumspringgreen;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    list-style: none;
+}
+a { 
+    color: white;
+    font-size: 5mm;
+    text-decoration: none;
+    list-style: none;
+    margin-right: 4vw;
+}

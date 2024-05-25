@@ -1,0 +1,17 @@
+#langs span { 
+    font-size: 15mm;
+    margin-right: 5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5vw;
+    flex-direction: row;
+}
+#langs { 
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}

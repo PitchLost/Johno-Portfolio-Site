@@ -1,0 +1,22 @@
+#main-welcome { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+}
+#welcome-text { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 13mm;
+    font-weight: bold;
+}
+.main-profile-pic { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vh;
+}
