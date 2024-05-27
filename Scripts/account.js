@@ -1,3 +1,4 @@
+
 // Variables:
 const accountApi = '/getAccount';
 const nameDOM = document.getElementById('name-display');
@@ -7,7 +8,8 @@ let accountInfo = {
     username: 'guest',
     password: ''
 };
-
+const maxAttempts = 5; 
+let failedAttempts = 0;
 // Functions:
 
 async function getAccount() {
@@ -31,25 +33,30 @@ async function getAccount() {
                 // Update the DOM or handle the response data as needed
                 console.log('Test:', accountInfo.username)
                 nameDOM.textContent = accountInfo.username;
-            } else {
-                console.error('Failed to get account info trying again now!');
-                setTimeout(() => {
-                    getAccount();
-                }, 100);
-            }
+            } 
         } catch (error) {
             console.error('Error fetching account info:', error);
-            setTimeout(() => {
-                getAccount();
-            }, 100);
-        }
+            accountInfo = { 
+                username: 'Local Host', 
+                password: ''
+            }        }
     } else {
-        console.log('Not yet connected retrying now!');
-        setTimeout(() => {
-            getAccount();
-        }, 100);
+        if (failedAttempts < maxAttempts) { 
+            failedAttempts++
+            getAccount()
+        } else { 
+            console.log('Failed to many times. Applying offline mode')
+            accountInfo = { 
+                username: 'Offline', 
+                password: ''
+            }
+            nameDOM.textContent = accountInfo.username
+            console.log(accountInfo)
+        }
     }
-}
+    }
+
+
 
 async function createAccount() {
     // Implementation for createAccount function
