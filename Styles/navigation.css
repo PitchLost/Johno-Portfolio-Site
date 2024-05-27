@@ -10,10 +10,28 @@ ul {
     left: 0;
     list-style: none;
 }
-a { 
+a, li { 
     color: white;
-    font-size: 5mm;
+    font-size: 4mm;
     text-decoration: none;
     list-style: none;
-    margin-right: 4vw;
+    margin-right: 2vw;
+}
+
+.segment {
+    width: 33vw;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    border-style: solid;
+    border-width: thin;
+}
+#nav-pic { 
+    width: 10vw;
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+    
 }

@@ -16,7 +16,7 @@
     border-width: thick;
     border-radius: 15px;
     border-style: solid;
-    border-color: black;
+    border-color: mediumspringgreen;
     color: black;
     margin-left: 5VW;
     margin-right: 5vw;
@@ -56,6 +56,7 @@ h2 {
     justify-content: center;
     align-items: center;
     background-color: mediumspringgreen;
+    color: white;
 }
 .ticket_button:hover { 
     background-color: mediumaquamarine;

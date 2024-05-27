@@ -20,3 +20,39 @@
     align-items: center;
     margin-top: 10vh;
 }
+
+#welcome_card { 
+    width: 50vw;
+    height: auto;
+    min-height: 40vh;
+    border-radius: 15px;
+    margin-top: 10vh;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-height: fit-content;
+    list-style: disc;
+}
+
+.pro { 
+    color: black;
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 1.5vh;
+    margin-top: 1.5vh;
+    margin-left: 2vw;
+    font-size: 4;
+    list-style: disc;
+   
+}
+.fa-check { 
+    color: rgb(0, 250, 0);
+    margin-left: 2vw;
+    font-size: 5mm;
+}
+.fa-xmark { 
+    color: rgb(250, 0, 0);
+    font-size: 5mm;
+    margin-left: 5mm;
+}
