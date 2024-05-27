@@ -1,6 +1,6 @@
 #projects { 
     width: 100vw;
-    margin-top: 20vh;
+    margin-top: 40vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,7 +17,7 @@
     border-radius: 15px;
     border-style: solid;
     border-color: mediumspringgreen;
-    color: black;
+    color: white;
     margin-left: 5VW;
     margin-right: 5vw;
 }
@@ -41,6 +41,7 @@ h2 {
     font-weight: bold;
 }
 #get-in-touch { 
+    margin-top: 50vh;
     width: 100VW;
     height: 40vh;
     display: flex;
@@ -58,6 +59,18 @@ h2 {
     background-color: mediumspringgreen;
     color: white;
 }
+
+.contantLi { 
+    color: black;
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 1.5vh;
+    margin-top: 1.5vh;
+    margin-left: 2vw;
+    font-size: 4;
+    list-style: disc; 
+}
+
 .ticket_button:hover { 
     background-color: mediumaquamarine;
 }

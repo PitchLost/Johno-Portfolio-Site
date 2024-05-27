@@ -9,6 +9,7 @@ ul {
     top: 0;
     left: 0;
     list-style: none;
+    z-index: 2;
 }
 a, li { 
     color: white;

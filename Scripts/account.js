@@ -1,4 +1,5 @@
 
+
 // Variables:
 const accountApi = '/getAccount';
 const nameDOM = document.getElementById('name-display');
@@ -13,7 +14,6 @@ let failedAttempts = 0;
 // Functions:
 
 async function getAccount() {
-    console.log('Current account info =', accountInfo);
     const accountInfoString = JSON.stringify(accountInfo);
     if (connectedToServer) {
         console.log(accountInfoString);
@@ -61,3 +61,6 @@ async function getAccount() {
 async function createAccount() {
     // Implementation for createAccount function
 }
+
+
+

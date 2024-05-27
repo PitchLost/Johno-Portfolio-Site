@@ -7,4 +7,10 @@ body {
     margin: 0;
     padding: 0;
     border: 0;
+    z-index: 1;
+    color: white;
+}
+
+#welcome-main-head { 
+    margin-top: 10vh;
 }

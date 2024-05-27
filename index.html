@@ -14,10 +14,13 @@
     <link rel="stylesheet" href="/Styles/footer.css">
     <link rel="stylesheet" href="/Styles/ribbon.css">
     <link rel="stylesheet" href="/Styles/welcome.css">
+    <link rel="stylesheet" href="/Styles/background.css">
+    <link rel="stylesheet" href="/Styles/ticket.css">
     <!-- Local Scripts:  -->
     <script defer src="/Scripts/initBackend.js"></script>
     <script defer src="/Scripts/onLoad.js"></script>
     <script defer src="/Scripts/account.js"></script>
+    <script defer src="/Scripts/ticket.js"></script>
 
 </head>
 <body>
@@ -25,6 +28,24 @@
     <span class="ribbon" id="left-ribbon"></span>
     <span class="ribbon" id="right-ribbon"></span>
 </div>
+
+
+<div id="background">
+    <div class="bgImg" id="box1">
+       
+    </div>
+    <div class="bgImg" id="box2">
+        
+    </div>
+    <div class="bgImg" id="box3">
+        
+    </div>
+    <div class="bgImg" id="box4">
+        
+    </div>
+</div>
+
+
 
 
 <nav> 
@@ -68,14 +89,40 @@
 <header id="content-header">Some of my previous projects:</header>
 <div id="projects"> 
     <span class="project">FiveM Server</span>
-    <span class="project">C++ Array control</span>
-    <span class="project">Solved LeetCode questions</span>
+    <span class="project">Order calculator</span>
+    <span class="project">Url shortener</span>
 </div>
 
 <div id="get-in-touch"> 
     <header id="contact-header">Get in contact with me</header>
     <h2>Like what you see or have some questions? Open a ticket to get in touch with me</h2>
-    <button class="ticket_button">Create ticket</button>
+   
+    
+</div>
+
+
+<div id="top-header-main"> 
+ 
+</div>
+<div id="top-div-create"> 
+    <div id="create-hidden"> 
+
+        <input id="ticket-label" placeholder="Title *"> 
+        <input id="ticket-discord" placeholder="Email, Phone number, Discord *">
+        <textarea id="ticket-desc" placeholder="Describe your request. Is it full stack? Is it just a simple website? *"></textarea>
+        <textarea id="other" placeholder="Anything else?"></textarea>
+
+            <div class="info" id="ticket-info-1"> 
+                <header>Are you ready to submit?</header>
+                <h2>Before submitting:</h2>
+                <li>Check that you have filled all inputs with a *</li>
+                <li>Provide a in depth description on what you are looking for</li>
+                <li>Double check all inputs before submission as cannot edit</li>
+            </div>
+        <button id="submit">Submit</button>
+        </form>
+    </div>
+</div>
 </div>
 
 <div id="langs">

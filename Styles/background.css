@@ -1,0 +1,52 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+
+}    
+
+#background { 
+    width: 100vw;
+    height: auto;
+    max-height: fit-content;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    background-color:   transparent ;
+}
+
+.bgImg { 
+    width: 100vw;
+    height: 100vh;
+    z-index: -999;
+    position: absolute;
+    border-bottom-style:solid ;
+    border-bottom-width: thick;
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 15% 45%;
+}
+
+#box1 { 
+    background-image: url(/Assets/desert-8592629_1280.jpg);
+    top: 0%;
+    
+}
+#box2 { 
+    background-image: url(/Assets/lighthouse-8650151_1280.jpg);
+    top: 100vh;
+}
+#box3 { 
+    background-image: url(/Assets/pink-clouds-8764532_1280.jpg);
+    top:200vh
+}
+
+#box4 { 
+    background-image: url(/Assets/lake-7624330_1280.jpg);
+    top: 300vh;
+}
