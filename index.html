@@ -16,6 +16,8 @@
     <link rel="stylesheet" href="/Styles/welcome.css">
     <link rel="stylesheet" href="/Styles/background.css">
     <link rel="stylesheet" href="/Styles/ticket.css">
+    <link rel="stylesheet" href="/Styles/confirm.css">
+    <link rel="stylesheet" href="/Styles/login.css">
     <!-- Local Scripts:  -->
     <script defer src="/Scripts/initBackend.js"></script>
     <script defer src="/Scripts/onLoad.js"></script>
@@ -46,14 +48,21 @@
 </div>
 
 
+<div id="confirmBox"> 
+    <header>Please confirm</header>
+    <p id="confirm-text"></p>
+    <button id="confirm-yes">Confirm</button>
+    <button id="confirm-no">Cancel</button>
+</div>
+
 
 
 <nav> 
     <ul> 
        <div class="segment">
-        <li><a href="link.com">Link 1</a></li>
-        <li><a href="link.com">Link 2</a></li>
-        <li><a href="link.com">Link 3</a></li>
+        <li><a href="#main-welcome">About Me</a></li>
+        <li><a href="#content-header">My Projects</a></li>
+        <li><a href="#get-in-touch">Contact me</a></li>
         </div>
         <div class="segment"> 
             <span id="nav-pic"><img src="/Assets/ProfilePic.png"></span>
@@ -124,6 +133,16 @@
     </div>
 </div>
 </div>
+
+
+<header id="loginHead">Login to your account</header>
+<div id="loginSection"> 
+    <input id="username-enter" placeholder="Username">
+    <input id="password-enter" placeholder="Password">
+    <button id="loginBtn">Login</button>
+    <button class="switchMethod">No account? Sign up</button>
+</div>
+
 
 <div id="langs">
     <span id="html_icon"><i class="fa-brands fa-html5"></i></span>

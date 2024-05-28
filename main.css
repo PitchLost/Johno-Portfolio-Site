@@ -10,6 +10,9 @@ body {
     z-index: 1;
     color: white;
 }
+html { 
+    scroll-behavior: smooth;
+}
 
 #welcome-main-head { 
     margin-top: 10vh;

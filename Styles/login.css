@@ -1,0 +1,39 @@
+#loginSection { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+#loginSection input { 
+    width: 40vw;
+    height: 10vh;
+    margin-bottom: 5vh;
+    background-color: rgb(250,250,250,0.3);
+    border-radius: 15px;
+}
+#loginSection input::placeholder { 
+    margin-left: 2vw;
+}
+#loginSection button { 
+    width: 20vw;
+    height: 5vh;
+    background-color: mediumspringgreen;
+    margin-bottom: 3vh;
+}
+.switchMethod { 
+    background-color: mediumaquamarine;
+}
+.otherMethod { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 4mm;
+}
+#loginHead { 
+    font-size: 13mm;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10vh;
+}

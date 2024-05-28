@@ -18,6 +18,10 @@ let ticketDOM = {
 
 function createTicket() { 
     // Set the ticket properties
+    const confirmTicket = confirm('Are you sure you want to submit a ticket?')
+    if (confirmTicket) { 
+        console.log('Sending request stand by...')
+    
     ticketDOM = { 
         title: document.getElementById('ticket-label').value, 
         contact: document.getElementById('ticket-discord').value, 
@@ -35,6 +39,8 @@ function createTicket() {
     console.log(ticket)
     // Convert the ticket into JSON
     ticket = JSON.stringify(ticket)
+
+}
 
 
     // Make the server request with the ticket
